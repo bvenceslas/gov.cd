@@ -13,3 +13,4 @@ This project is a condensed platform of different country's data structures
 - SERVICES
 - GOVERNMENT
 - HIGHLIGHTS
+- NEWSLETTER
