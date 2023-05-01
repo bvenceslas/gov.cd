@@ -11,7 +11,7 @@ const Layout: React.FunctionComponent<Props> = ({ children }) => {
       {/* Header */}
       <Header />
       {/* Layout of the app */}
-      <div className="px-1 py-2">{children}</div>
+      <div className="">{children}</div>
       {/* Footer */}
       {/* <Footer /> */}
     </>
