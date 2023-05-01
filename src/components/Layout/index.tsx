@@ -1,9 +1,21 @@
+// import Footer from "../common/Footer";
+import Header from "../common/Header";
+
 type Props = {
-  children: any;
+  children: React.ReactNode;
 };
 
 const Layout: React.FunctionComponent<Props> = ({ children }) => {
-  return <div className="px-10 py-10">{children}</div>;
+  return (
+    <>
+      {/* Header */}
+      <Header />
+      {/* Layout of the app */}
+      <div className="px-1 py-2">{children}</div>
+      {/* Footer */}
+      {/* <Footer /> */}
+    </>
+  );
 };
 
 export default Layout;
