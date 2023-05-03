@@ -1,15 +1,9 @@
+import { useState } from "react";
 import armoirieLogo from "src/assets/armoirie.png";
 import hamburgerIcon from "src/assets/icons/hamburger.svg";
 
 const Header: React.FunctionComponent = () => {
-  // handle responsive menu
-  const handleMobileMenuClick = () => {
-    const menuBtn = document.querySelector(".mobile-menu-btn");
-    const navbar = document.querySelector(".responsive-menu");
-    menuBtn?.addEventListener("click", () => {
-      navbar?.classList.toggle("hidden");
-    });
-  };
+  const [showResponsiveMenu, setShowResponsiveMenu] = useState(false);
 
   return (
     <nav className="shadow-lg">
@@ -39,27 +33,35 @@ const Header: React.FunctionComponent = () => {
         </div>
 
         <img
-          onClick={handleMobileMenuClick}
+          onClick={() => {
+            if (!showResponsiveMenu) {
+              setShowResponsiveMenu(true);
+            } else {
+              setShowResponsiveMenu(false);
+            }
+          }}
           className="mobile-menu-btn hover:shadow-sm cursor-pointer lg:hidden"
           src={hamburgerIcon}
           alt="hamburger icon"
           width={40}
         />
       </div>
-      <div className="responsive-menu flex flex-col lg:hidden space-y-2 px-2 py-1">
-        <a className="hover:text-[#0CC1FF]" href="#">
-          Home
-        </a>
-        <a className="hover:text-[#0CC1FF]" href="#">
-          About
-        </a>
-        <a className="hover:text-[#0CC1FF]" href="#">
-          Services
-        </a>
-        <a className="hover:text-[#0CC1FF]" href="#">
-          Government
-        </a>
-      </div>
+      {showResponsiveMenu ? (
+        <div className="responsive-menu flex flex-col lg:hidden space-y-2 px-2 py-1">
+          <a className="hover:text-[#0CC1FF]" href="#">
+            Home
+          </a>
+          <a className="hover:text-[#0CC1FF]" href="#">
+            About
+          </a>
+          <a className="hover:text-[#0CC1FF]" href="#">
+            Services
+          </a>
+          <a className="hover:text-[#0CC1FF]" href="#">
+            Government
+          </a>
+        </div>
+      ) : null}
     </nav>
   );
 };
