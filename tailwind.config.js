@@ -9,6 +9,9 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('/src/assets/hero.jpeg')",
         'footer-texture': "url('/img/footer-texture.png')",
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
       }
     },
   },
