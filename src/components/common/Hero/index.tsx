@@ -4,7 +4,8 @@ const Hero: React.FunctionComponent = () => {
   return (
     <div className="w-full bg-hero-pattern h-[400px] bg-cover px-5 border border-green-700">
       <p className="text-2xl text-white shadow-sm ">
-        Welcome to <br /> <span className="text-4xl font-bold">DR Congo</span>
+        Welcome to <br />{" "}
+        <span className="text-4xl font-bold font-poppins">DR Congo</span>
       </p>
 
       <div className="absolute w-full  mt-[150px] flex justify-center ">
