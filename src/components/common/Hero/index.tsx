@@ -3,8 +3,8 @@ import searchIcon from "src/assets/icons/search.svg";
 const Hero: React.FunctionComponent = () => {
   return (
     <div className="w-full bg-hero-pattern h-[450px] bg-cover px-5 border border-green-700">
-      <div className="welcome-wrapper mx-5 mt-32 border">
-        <p className="welcome-text text-2xl text-white font-bold font-poppins">
+      <div className="welcome-wrapper mx-5 mt-32 md:mx-10 md:mt-40 border">
+        <p className="welcome-text text-2xl text-white font-bold font-poppins md:text-3xl md:font-extrabold">
           Welcome to
         </p>
         <p className="welcome-text text-5xl mt-8 text-white font-poppins font-extrabold">
