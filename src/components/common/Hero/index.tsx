@@ -17,9 +17,7 @@ const Hero: React.FunctionComponent = () => {
             placeholder="what are you looking for?"
             className="w-[90%] h-[40px] rounded-sm text-sm px-2"
           />
-          {/* <div className="hidden md:bg-[#098DCD] md:flex md:items-center md:px-5 md:cursor-pointer md:text-white md:h-[40px] md:text-sm md:font-bold ">
-            Search
-          </div> */}
+          <div className="hidden  ">Search</div>
           <img
             src={searchIcon}
             alt="search icon"
