@@ -12,12 +12,12 @@ const Header: React.FunctionComponent = () => {
           <a href="/">
             <img src={armoirieLogo} alt="armoirie logo" width={40} />
           </a>
-          <span className="hidden lg:block lg:ml-2 lg:text-sm">
+          <span className="hidden lg:block lg:ml-2 lg:text-sm lg:font-poppins">
             Democratic Republic of Congo
           </span>
         </div>
-        <p className="text-3xl font-bold text-center">DRC</p>
-        <div className="menu hidden lg:flex lg:space-x-6">
+        <p className="text-3xl font-bold text-center cursor-pointer">DRC</p>
+        <div className="menu hidden lg:flex lg:space-x-6 lg:font-light">
           <a className="hover:text-[#0CC1FF]" href="#">
             Home
           </a>
