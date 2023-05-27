@@ -11,7 +11,7 @@ const Hero: React.FunctionComponent = () => {
           DRCongo.
         </p>
 
-        <div className="search-wrapper flex justify-left md:w-[90%] border">
+        <div className="search-wrapper flex justify-left md:w-[90%]">
           <input
             type="text"
             placeholder="What are you looking for?"
