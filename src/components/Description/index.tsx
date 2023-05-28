@@ -3,7 +3,7 @@ import Cards from "./cards";
 const Description: React.FunctionComponent = () => {
   return (
     <div className="desc-wrapper w-full h-[1024px] bg-[#098DCD] p-8 flex flex-col justify-evenly md:h-[458px]">
-      <div className="desc-cards flex flex-col md:flex-row">
+      <div className="desc-cards flex flex-col md:flex-row md:-mt-48">
         <Cards
           title="Visit DRCongo"
           description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
