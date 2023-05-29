@@ -1,16 +1,19 @@
-# gov.drc
+# gov.cd
 
 DRC Government platform
 
-## Description
+### Description
 
-This project is a condensed platform of different country's data structures
+The [project]() is public
 
-## Content
+### Resources
 
-- HOME
-- ABOUT
-- SERVICES
-- GOVERNMENT
-- HIGHLIGHTS
-- NEWSLETTER
+- [Project setup](https://blog.bitsrc.io/maximize-your-react-skills-build-a-to-do-list-app-from-start-to-finish-with-typescript-vite-b1b5e0faecbe)
+
+- [Tailwind](https://tailwindcss.com/docs/installation)
+
+- -
+
+### Author
+
+🙎🏽‍♂️ Venceslas Burongu
