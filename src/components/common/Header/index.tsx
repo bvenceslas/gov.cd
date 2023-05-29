@@ -7,7 +7,7 @@ const Header: React.FunctionComponent = () => {
 
   return (
     <nav className="shadow-lg">
-      <div className="nav-container w-full px-2 h-16 flex justify-between items-center">
+      <div className="nav-container w-full px-3 h-16 flex justify-between items-center">
         <div className="logo flex items-center">
           <a href="/">
             <img src={armoirieLogo} alt="armoirie logo" width={40} />
@@ -17,7 +17,7 @@ const Header: React.FunctionComponent = () => {
           </span>
         </div>
         <p className="text-3xl font-bold text-center">DRC</p>
-        <div className="menu hidden lg:flex lg:space-x-3">
+        <div className="menu hidden lg:flex lg:space-x-6">
           <a className="hover:text-[#0CC1FF]" href="#">
             Home
           </a>
@@ -42,7 +42,7 @@ const Header: React.FunctionComponent = () => {
           }}
           className="mobile-menu-btn hover:shadow-sm cursor-pointer lg:hidden"
           src={hamburgerIcon}
-          alt="hamburger icon"
+          alt="hamburger menu"
           width={40}
         />
       </div>

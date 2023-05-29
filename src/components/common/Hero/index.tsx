@@ -1,16 +1,12 @@
-import heroImg from "src/assets/hero.jpeg";
 import searchIcon from "src/assets/icons/search.svg";
 
 const Hero: React.FunctionComponent = () => {
   return (
-    <div className="relative w-full">
-      <img src={heroImg} alt="hero image" className="absolute w-full top-0" />
+    <div className="w-full bg-hero-pattern h-[400px] bg-cover border border-red-700">
       <p className="absolute text-2xl pl-5 pt-10 text-white shadow-sm ">
-        Welcome to
+        Welcome to <br /> <span className="text-4xl font-bold">DR Congo</span>
       </p>
-      <p className="absolute font-bold text-4xl pl-5 pt-[80px] text-white shadow-sm ">
-        DR Congo
-      </p>
+
       <div className="absolute w-full  mt-[150px] flex justify-center ">
         <input
           type="text"
